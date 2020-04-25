@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
 def input_to_index(board, move, "X")
   board[move] = "X"
-  display_board(board[move])
+  return board 
 end
