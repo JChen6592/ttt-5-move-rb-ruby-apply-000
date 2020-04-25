@@ -7,8 +7,7 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(move)
-  board = Array.new(9)
+def input_to_index(board, move, "X")
   board[move] = "X"
-  display_board(board)
+  display_board(board[move])
 end
