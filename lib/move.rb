@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-  puts move 
+  int_move = move
+  return int_move
 end
